@@ -1,9 +1,13 @@
+import Cookie from './Cookie';
 
 function App() {
   return (
-    <h1>Cookie and react | Harshita</h1>
+    <>
+      <Cookie />
+
+
+    </>
   );
 }
 
 export default App;
- 
