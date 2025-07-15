@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import {jsx as _jsx} from "react/jsx-dev-runtime.js"
 import App from "./App.jsx";
 
 function MyApp() {
@@ -36,4 +35,4 @@ const reactElement = React.createElement(
   anotherElement
 );
 
-ReactDOM.createRoot(document.getElementById("root")).render(reactElement); 
+ReactDOM.createRoot(document.getElementById("root")).render(reactElement);
