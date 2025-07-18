@@ -35,3 +35,4 @@ function App() {
 }
 
 export default App;
+/* for theoritical explanation of DOM, reconciliation, Fibre, etc. go to google and search react-fibre, and open the gihub repo by acdlite */
