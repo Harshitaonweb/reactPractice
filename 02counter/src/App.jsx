@@ -12,7 +12,10 @@ function App() {
     if (counter < 20) {
       console.log("clicked", counter);
       //counter = counter + 1;
-      setCounter(counter + 1);
+      setCounter(prevCounter => prevCounter + 1);
+      setCounter(prevCounter => prevCounter + 1);
+      setCounter(prevCounter => prevCounter + 1);
+      setCounter(prevCounter => prevCounter + 1);
     }
   };
 
