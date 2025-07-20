@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function App() {
-  const [color, setColor] = useState("cyan");
+  const [color, setColor] = useState("brown");
 
   return (
     <div
