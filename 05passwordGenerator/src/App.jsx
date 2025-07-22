@@ -24,7 +24,9 @@ function App() {
   return (
     <>
       <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 py-3 my-8 text-orange-500 bg-gray-800">
-        <h1 className="text-white text-center my-3 text-xl">Password Generator</h1>
+        <h1 className="text-white text-center my-3 text-xl">
+          Password Generator
+        </h1>
         <div className="flex shadow rounded-lg overflow-hidden mb-4">
           <input
             type="text"
@@ -49,6 +51,16 @@ function App() {
             }}
           />
           <label>length: {length}</label>
+        </div>
+        <div className="flex items-center gap-x-1">
+          <input
+            type="checkbox"
+            defaultChecked={numberAllowed}
+            id="numberInput"
+            onChange={() => {
+              setNumberAllowed((prev) => !prev);
+            }}
+          />
         </div>
       </div>
     </>
