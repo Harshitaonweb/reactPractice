@@ -1,5 +1,6 @@
 # notes for currency converter app
 <!-- for ease while coding -->
+<!-- preview at the top rigth corner -->
 ## api link
 
 ```javascript
