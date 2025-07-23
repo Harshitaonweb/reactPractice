@@ -1,5 +1,5 @@
 # notes for currency converter app
-
+<!-- for ease while coding -->
 ## api link
 
 ```javascript
