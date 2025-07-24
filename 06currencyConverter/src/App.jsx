@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
   return (
     <>
-      <h1 className='text-3xl bg-blue-500'>Currency App with cookie</h1>
+      <h1 className='text-3xl bg-blue-500 text-white'>Currency App with cookie</h1>
     </>
   )
 }
