@@ -42,5 +42,5 @@ function InputBox({
     </div>
   );
 }
-
+// format
 export default InputBox;
