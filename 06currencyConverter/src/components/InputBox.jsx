@@ -44,3 +44,4 @@ function InputBox({
 }
 // Format and creation of Input box of currency converter
 export default InputBox;
+//import in main file too!
