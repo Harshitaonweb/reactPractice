@@ -42,5 +42,5 @@ function InputBox({
     </div>
   );
 }
-
+// Format and creation of Input box of currency converter
 export default InputBox;
