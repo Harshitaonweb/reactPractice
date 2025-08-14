@@ -50,3 +50,6 @@ export default function Header() {
     </header>
   );
 }
+// uninstall
+// clearadded
+// git added
