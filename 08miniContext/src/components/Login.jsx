@@ -2,7 +2,7 @@ import React, { useState, useContext, useActionState } from "react";
 import UserContext from "../context/UserContext";
 
 function Login() {
-  const [username, setUsername] = useState;
+  const [username, setUsername] = useState("");
   const handleSubmit = () => {};
   return (
     <div>
