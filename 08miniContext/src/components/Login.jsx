@@ -8,7 +8,7 @@ function Login() {
   return (
     <div>
       <h2>Login</h2>
-      <input type="text" placeholder="username" />
+      <input type="text" value={username} placeholder="username" />
       <input type="text" placeholder="password" />
       <button onClick={handleSubmit}>Submit</button>
     </div>
