@@ -3,7 +3,7 @@ import UserContext from "../context/UserContext";
 
 function Login() {
   const [username, setUsername] = useState("");
-  const [password, setPassword] = useState(second);
+  const [password, setPassword] = useState("");
   const handleSubmit = () => {};
   return (
     <div>
