@@ -4,8 +4,7 @@ import UserContext from "../context/UserContext";
 function Profile() {
   const { user } = useContext(UserContext);
 
-  if (!user) {
-  }
+  if (!user) return <div>Please Login</div>;
 }
 
 export default Profile;
