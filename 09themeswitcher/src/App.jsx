@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1></h1>
+      <h1 className="p-4 ">Cookie</h1>
     </>
   );
 }
