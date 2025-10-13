@@ -1,7 +1,10 @@
+import { useState } from "react";
 import "./App.css";
 import { ThemeProvider } from "./context/theme";
 
 function App() {
+  const [themeMode, setThemeMode] = useState("light");
+
   return (
     <ThemeProvider value={{ themeMode, darkTheme, lightTheme }}>
       <div className="flex flex-wrap min-h-screen items-center">
