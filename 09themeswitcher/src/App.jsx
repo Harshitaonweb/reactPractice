@@ -5,6 +5,14 @@ import { ThemeProvider } from "./context/theme";
 function App() {
   const [themeMode, setThemeMode] = useState("light");
 
+  const lightTheme = () => {
+    setThemeMode("light");
+  };
+
+  const darkTheme = () => {
+    setThemeMode("dark");
+  };
+
   return (
     <ThemeProvider value={{ themeMode, darkTheme, lightTheme }}>
       <div className="flex flex-wrap min-h-screen items-center">
