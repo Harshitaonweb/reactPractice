@@ -13,6 +13,8 @@ function App() {
     setThemeMode("dark ");
   };
 
+  // for change in theme
+
   return (
     <ThemeProvider value={{ themeMode, darkTheme, lightTheme }}>
       <div className="flex flex-wrap min-h-screen items-center">
