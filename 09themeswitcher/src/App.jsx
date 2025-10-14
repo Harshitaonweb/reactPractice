@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import { ThemeProvider } from "./context/theme";
 
@@ -14,6 +14,8 @@ function App() {
   };
 
   // for change in theme
+
+  useEffect(())
 
   return (
     <ThemeProvider value={{ themeMode, darkTheme, lightTheme }}>
