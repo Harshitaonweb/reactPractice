@@ -18,7 +18,7 @@ function App() {
   useEffect(() => {
     document.querySelector;
     ("html");
-  });
+  }, []);
 
   return (
     <ThemeProvider value={{ themeMode, darkTheme, lightTheme }}>
