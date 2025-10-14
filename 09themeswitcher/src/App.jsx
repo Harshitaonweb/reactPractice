@@ -15,7 +15,7 @@ function App() {
 
   // for change in theme
 
-  useEffect(())
+  useEffect(() => {});
 
   return (
     <ThemeProvider value={{ themeMode, darkTheme, lightTheme }}>
