@@ -10,7 +10,7 @@ function App() {
   };
 
   const darkTheme = () => {
-    setThemeMode("dark");
+    setThemeMode("dark ");
   };
 
   return (
