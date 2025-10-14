@@ -15,7 +15,10 @@ function App() {
 
   // for change in theme
 
-  useEffect(() => {});
+  useEffect(() => {
+    document.querySelector;
+    ("html");
+  });
 
   return (
     <ThemeProvider value={{ themeMode, darkTheme, lightTheme }}>
