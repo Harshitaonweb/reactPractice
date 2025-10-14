@@ -17,6 +17,7 @@ function App() {
 
   useEffect(() => {
     document.querySelector("html").classList.remove("light", "dark");
+    document.querySelector("html");
   }, []);
 
   return (
