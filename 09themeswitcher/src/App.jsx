@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import { ThemeProvider } from "./context/theme";
 import ThemeBtn from "./components/ThemeBtn";
+import Card from "./components/Card";
 
 function App() {
   const [themeMode, setThemeMode] = useState("light");
@@ -29,6 +30,7 @@ function App() {
           <ThemeBtn />
 
           <div className="w-full max-w-sm mx-auto"></div>
+          <Card />
         </div>
       </div>
     </ThemeProvider>
