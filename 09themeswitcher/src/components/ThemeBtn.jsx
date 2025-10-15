@@ -1,6 +1,8 @@
 import React from "react";
+import useTheme from "../context/theme";
 
 export default function ThemeBtn() {
+  const { themeMode, lightTheme, darkTheme } = useTheme();
   return (
     <label className="relative inline-flex items-center cursor-pointer">
       <input type="checkbox" value="" className="sr-only peer" />
