@@ -9,6 +9,7 @@ export const TodoContext = createContext({
     },
   ],
   addTodo: (todo) => {},
+  updatedTodo: (id, Todo),
 });
 
 export const useTodo = () => {
