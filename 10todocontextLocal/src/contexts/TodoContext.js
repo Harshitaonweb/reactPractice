@@ -8,6 +8,7 @@ export const TodoContext = createContext({
       completed: false,
     },
   ],
+  addTodo: (todo) => {},
 });
 
 export const useTodo = () => {
