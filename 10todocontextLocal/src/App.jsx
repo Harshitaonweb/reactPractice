@@ -5,6 +5,8 @@ import "./App.css";
 function App() {
   const [todos, setTodos] = useState([]);
 
+  const addTodo = () => {};
+
   return (
     <TodoProvider
       value={{ todos, addTodo, updatedTodo, deleteTodo, toggleComplete }}
