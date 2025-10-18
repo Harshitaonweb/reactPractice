@@ -5,7 +5,9 @@ import "./App.css";
 function App() {
   const [todos, setTodos] = useState([]);
 
-  const addTodo = (todo) => {};
+  const addTodo = (todo) => {
+    setTodos(todo);
+  };
 
   return (
     <TodoProvider
