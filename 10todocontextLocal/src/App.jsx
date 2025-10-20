@@ -33,4 +33,3 @@ export default App;
 // React server
 //  band
 // Manter
-// Sickup
