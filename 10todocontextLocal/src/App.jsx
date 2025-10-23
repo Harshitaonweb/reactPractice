@@ -32,4 +32,3 @@ export default App;
 // lankmen
 // Css
 // UI
-// Make N
