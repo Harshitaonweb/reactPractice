@@ -35,4 +35,3 @@ export default App;
 // Make N
 // Colour
 // Checkbox
-//Mack
