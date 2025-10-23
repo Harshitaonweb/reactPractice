@@ -34,4 +34,3 @@ export default App;
 // UI
 // Make N
 // Colour
-// Checkbox
