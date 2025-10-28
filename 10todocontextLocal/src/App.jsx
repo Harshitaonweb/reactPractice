@@ -9,6 +9,8 @@ function App() {
     setTodos((prev) => [{ id: Date.now(), ...todo }, ...prev]);
   };
 
+  const updatedTodo = id;
+
   return (
     <TodoProvider
       value={{ todos, addTodo, updatedTodo, deleteTodo, toggleComplete }}
