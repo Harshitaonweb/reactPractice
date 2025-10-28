@@ -6,7 +6,7 @@ function App() {
   const [todos, setTodos] = useState([]);
 
   const addTodo = (todo) => {
-    setTodos((prev) => []);
+    setTodos((prev) => [...prev]);
   };
 
   return (
