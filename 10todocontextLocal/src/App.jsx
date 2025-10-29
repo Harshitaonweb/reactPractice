@@ -13,6 +13,8 @@ function App() {
     setTodos((prev) =>
       prev.map((prevTodo) => (prevTodo.id === id ? todo : prevTodo))
     );
+
+    prev.map(eachVal);
   };
 
   return (
