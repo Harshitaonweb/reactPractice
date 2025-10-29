@@ -9,7 +9,9 @@ function App() {
     setTodos((prev) => [{ id: Date.now(), ...todo }, ...prev]);
   };
 
-  const updateTodo = (id, todo) => {};
+  const updateTodo = (id, todo) => {
+    setTodos((prev) => prev.map((prevTodo) => ()))
+  };
 
   return (
     <TodoProvider
