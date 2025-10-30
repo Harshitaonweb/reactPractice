@@ -21,6 +21,8 @@ function App() {
     });
   };
 
+  const deleteTodo = () => {};
+
   return (
     <TodoProvider
       value={{ todos, addTodo, updatedTodo, deleteTodo, toggleComplete }}
