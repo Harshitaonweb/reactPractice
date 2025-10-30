@@ -22,7 +22,7 @@ function App() {
   };
 
   const deleteTodo = (id) => {
-    setTodos((prev) => prev.filter);
+    setTodos((prev) => prev.filter); //map is not suitable to use with delete, filter is used
   };
 
   return (
