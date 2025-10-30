@@ -21,7 +21,9 @@ function App() {
     });
   };
 
-  const deleteTodo = () => {};
+  const deleteTodo = (id) => {
+    setTodos(prev);
+  };
 
   return (
     <TodoProvider
