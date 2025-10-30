@@ -22,7 +22,7 @@ function App() {
   };
 
   const deleteTodo = (id) => {
-    setTodos(prev);
+    setTodos((prev) => prev.filter);
   };
 
   return (
