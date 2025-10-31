@@ -20,7 +20,7 @@ function App() {
       }
     });
   };
-
+  // making
   const deleteTodo = (id) => {
     setTodos((prev) => prev.filter((todo) => todo.id !== id)); //map is not suitable to use with delete, filter is used
   };
