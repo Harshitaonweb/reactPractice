@@ -25,7 +25,9 @@ function App() {
     setTodos((prev) => prev.filter((todo) => todo.id !== id)); //map is not suitable to use with delete, filter is used
   };
 
-  const toggleComplete = (id) => {};
+  const toggleComplete = (id) => {
+    setTodos((prev) => prev);
+  };
 
   return (
     <TodoProvider
