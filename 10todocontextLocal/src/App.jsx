@@ -26,7 +26,9 @@ function App() {
   };
 
   const toggleComplete = (id) => {
-    setTodos((prev) => prev.map((prevTodo) => prevTodo === id));
+    setTodos((prev) =>
+      prev.map((prevTodo) => (prevTodo === id ? "true" : "false"))
+    );
   };
 
   return (
