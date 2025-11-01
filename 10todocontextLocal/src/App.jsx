@@ -26,7 +26,7 @@ function App() {
   };
 
   const toggleComplete = (id) => {
-    setTodos((prev) => prev);
+    setTodos((prev) => prev.map((prevTodo) => prevTodo === id));
   };
 
   return (
