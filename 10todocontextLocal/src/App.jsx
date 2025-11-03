@@ -35,7 +35,6 @@ function App() {
     );
   };
   //main
-  //map
 
   return (
     <TodoProvider
