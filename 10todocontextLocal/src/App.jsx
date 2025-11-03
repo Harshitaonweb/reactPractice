@@ -46,7 +46,7 @@ function App() {
           </h1>
           <div className="mb-4">{/* Todo form go here */}</div>
           <div className="flex flex-wrap gap-y-3">
-            {/*Loop and Add TodoItem here */}
+            {/*Loop , Add TodoItem here */}
           </div>
         </div>
       </div>
