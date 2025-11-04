@@ -35,6 +35,7 @@ function App() {
     );
   };
   // mapping
+  //flipping
   return (
     <TodoProvider
       value={{ todos, addTodo, updatedTodo, deleteTodo, toggleComplete }}
