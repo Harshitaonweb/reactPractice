@@ -34,7 +34,7 @@ function App() {
       )
     );
   };
-
+  // mapping
   return (
     <TodoProvider
       value={{ todos, addTodo, updatedTodo, deleteTodo, toggleComplete }}
