@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { TodoProvider } from "./contexts/TodoContext";
 import "./App.css";
 
@@ -34,6 +34,8 @@ function App() {
       )
     );
   };
+
+  useEffect(() => {}, []);
 
   return (
     <TodoProvider
