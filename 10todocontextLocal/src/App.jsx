@@ -35,7 +35,9 @@ function App() {
     );
   };
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    localStorage.getItem;
+  }, []);
 
   return (
     <TodoProvider
