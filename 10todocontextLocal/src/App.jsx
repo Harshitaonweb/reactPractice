@@ -35,7 +35,6 @@ function App() {
     );
   };
   // mapping
-  //flipping
 
   return (
     <TodoProvider
