@@ -34,7 +34,6 @@ function App() {
       )
     );
   };
-  // mapping
 
   return (
     <TodoProvider
