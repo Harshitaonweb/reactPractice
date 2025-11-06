@@ -43,7 +43,7 @@ function App() {
     }
   }, []);
 
-  useEffect(() => {}, []);
+  useEffect(() => {}, [todos]);
 
   return (
     <TodoProvider
