@@ -36,7 +36,7 @@ function App() {
   };
 
   useEffect(() => {
-    localStorage.getItem;
+    localStorage.getItem("todos");
   }, []);
 
   return (
