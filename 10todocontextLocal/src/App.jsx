@@ -39,6 +39,9 @@ function App() {
     const todos = JSON.parse(localStorage.getItem("todos"));
   }, []);
 
+  if (todos && todos.length) {
+  }
+
   return (
     <TodoProvider
       value={{ todos, addTodo, updatedTodo, deleteTodo, toggleComplete }}
