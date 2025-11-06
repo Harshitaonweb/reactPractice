@@ -36,7 +36,7 @@ function App() {
   };
 
   useEffect(() => {
-    localStorage.getItem("todos");
+    JSON.parse(localStorage.getItem("todos"));
   }, []);
 
   return (
