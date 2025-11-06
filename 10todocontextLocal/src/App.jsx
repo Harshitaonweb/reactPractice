@@ -43,6 +43,8 @@ function App() {
     }
   }, []);
 
+  useEffect(() => {}, []);
+
   return (
     <TodoProvider
       value={{ todos, addTodo, updatedTodo, deleteTodo, toggleComplete }}
