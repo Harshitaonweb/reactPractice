@@ -43,7 +43,9 @@ function App() {
     }
   }, []);
 
-  useEffect(() => {}, [todos]);
+  useEffect(() => {
+    localStorage.setItem("todos", JSON.stringify);
+  }, [todos]);
 
   return (
     <TodoProvider
