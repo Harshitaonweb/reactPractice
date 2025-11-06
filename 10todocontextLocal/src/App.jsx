@@ -40,6 +40,7 @@ function App() {
   }, []);
 
   if (todos && todos.length > 0) {
+    setTodos(todos);
   }
 
   return (
