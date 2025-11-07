@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function TodoForm() {
-  const [Todo, setTodo] = useState;
+  const [Todo, setTodo] = useStat("");
   return (
     <form className="flex">
       <input
