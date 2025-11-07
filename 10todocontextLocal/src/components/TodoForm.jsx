@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 function TodoForm() {
   const [Todo, setTodo] = useState("");
+  const { addTodo } = useTodo;
   return (
     <form className="flex">
       <input
