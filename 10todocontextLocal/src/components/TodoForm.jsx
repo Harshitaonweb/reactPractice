@@ -4,6 +4,9 @@ import { useTodo } from "../contexts/TodoContext";
 function TodoForm() {
   const [Todo, setTodo] = useState("");
   const { addTodo } = useTodo;
+
+  const add = () => {};
+
   return (
     <form className="flex">
       <input
