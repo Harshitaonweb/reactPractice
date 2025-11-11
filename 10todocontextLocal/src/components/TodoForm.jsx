@@ -10,7 +10,7 @@ function TodoForm() {
 
     if (!todo) return;
 
-    addTodo({ id: Date.now, todo: Todo });
+    addTodo({ id: Date.now, todo: todo, completed: false });
   };
 
   return (
