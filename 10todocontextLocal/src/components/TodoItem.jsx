@@ -4,6 +4,7 @@ import { useState } from "react";
 
 function TodoItem({ todo }) {
   const [isTodoEditable, setIsTodoEditable] = useState(false);
+  const [todoMsg, setTodoMsg] = useState;
   const { updateTodo, deleteTodo, toggleCompleted } = useTodo;
   return (
     <div
