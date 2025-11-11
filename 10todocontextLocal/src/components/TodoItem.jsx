@@ -7,7 +7,9 @@ function TodoItem({ todo }) {
   const [todoMsg, setTodoMsg] = useState(todo.todo);
   const { updateTodo, deleteTodo, toggleCompleted } = useTodo;
 
-  const editTodo = () => {};
+  const editTodo = () => {
+    updateTodo(todo.id, { ...todo, todo: todoMsg });
+  };
 
   return (
     <div
