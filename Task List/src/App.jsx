@@ -72,6 +72,6 @@ function App() {
 }
 
 export default App;
-//App
+//App Web
 //Completed
 //Vercel
