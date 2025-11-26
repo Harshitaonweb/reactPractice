@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1>Learn about Redux toolkit</h1>
+      <h1>Learn about Redux Toolkit</h1>
     </>
   );
 }
