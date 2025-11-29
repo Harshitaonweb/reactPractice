@@ -12,7 +12,7 @@ function App() {
     </>
   );
 }
-//metalargy
+
 //mist
 //syt
 //mapping
