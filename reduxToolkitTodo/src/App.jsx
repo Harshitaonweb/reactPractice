@@ -15,6 +15,5 @@ function App() {
 
 //mist
 //syt
-//mapping
 
 export default App;
