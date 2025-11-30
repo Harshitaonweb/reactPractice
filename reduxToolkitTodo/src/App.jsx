@@ -14,6 +14,5 @@ function App() {
 }
 
 //mist
-//syt
 
 export default App;
