@@ -12,5 +12,5 @@ function App() {
     </>
   );
 }
-//mine
+
 export default App;
