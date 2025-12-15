@@ -14,6 +14,3 @@ function App() {
 }
 
 export default App;
-//return
-//killer bong-yun park-jyeol cha eun woo park jimin kim taksu
-//jimin
