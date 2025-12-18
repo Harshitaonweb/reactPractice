@@ -12,5 +12,5 @@ function App() {
     </>
   );
 }
-//mist
+
 export default App;
