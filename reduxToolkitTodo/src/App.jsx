@@ -12,5 +12,5 @@ function App() {
     </>
   );
 }
-//make lin
+//make
 export default App;
