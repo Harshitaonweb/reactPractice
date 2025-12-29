@@ -12,6 +12,5 @@ function App() {
     </>
   );
 }
-//m
 
 export default App;
