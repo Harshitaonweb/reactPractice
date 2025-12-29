@@ -12,6 +12,6 @@ function App() {
     </>
   );
 }
-//multimedia
+//multime
 
 export default App;
