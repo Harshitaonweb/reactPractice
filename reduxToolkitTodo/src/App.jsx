@@ -13,5 +13,5 @@ function App() {
   );
 }
 //multimedia ion
-//ser
+
 export default App;
