@@ -12,6 +12,6 @@ function App() {
     </>
   );
 }
-//multime
+//mult
 
 export default App;
