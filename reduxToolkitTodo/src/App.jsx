@@ -12,6 +12,6 @@ function App() {
     </>
   );
 }
-//multimedia ion
+//multimedia
 
 export default App;
