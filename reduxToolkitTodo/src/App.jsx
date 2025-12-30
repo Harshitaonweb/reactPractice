@@ -12,5 +12,5 @@ function App() {
     </>
   );
 }
-
+//minac
 export default App;
