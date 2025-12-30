@@ -12,5 +12,6 @@ function App() {
     </>
   );
 }
-//minac
+//min
+
 export default App;
