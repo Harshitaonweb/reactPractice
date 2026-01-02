@@ -12,6 +12,6 @@ function App() {
     </>
   );
 }
-//min
+//m
 
 export default App;
