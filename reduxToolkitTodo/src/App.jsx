@@ -13,5 +13,5 @@ function App() {
   );
 }
 //min
-//lim
+//
 export default App;
