@@ -12,5 +12,5 @@ function App() {
     </>
   );
 }
-//stmii
+//st
 export default App;
