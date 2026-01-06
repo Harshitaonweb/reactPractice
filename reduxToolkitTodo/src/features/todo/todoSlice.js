@@ -13,5 +13,6 @@ export const todoSlice = createSlice({
   initialState,
   reducers: {
     addTodo: () => {},
+    removeTodo: () => {},
   },
 });
