@@ -16,4 +16,3 @@ export const todoSlice = createSlice({
     removeTodo: () => {},
   },
 });
-//addtodo
