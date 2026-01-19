@@ -22,4 +22,4 @@ export const todoSlice = createSlice({
     removeTodo: () => {},
   },
 });
-//minute
+//mi
