@@ -22,5 +22,3 @@ export const todoSlice = createSlice({
     removeTodo: () => {},
   },
 });
-
-//ghvas
