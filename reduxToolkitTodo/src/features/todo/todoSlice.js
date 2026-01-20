@@ -19,6 +19,6 @@ export const todoSlice = createSlice({
       };
       state.todos.push(todo);
     },
-    removeTodo: () => {},
+    removeTodo: (state, action) => {},
   },
 });
