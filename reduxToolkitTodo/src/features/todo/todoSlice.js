@@ -20,7 +20,7 @@ export const todoSlice = createSlice({
       state.todos.push(todo);
     },
     removeTodo: (state, action) => {
-      state.todos = state.todos.filter();
+      state.todos = state.todos.filter((todo) => {});
     },
   },
 });
