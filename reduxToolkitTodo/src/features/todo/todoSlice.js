@@ -1,5 +1,5 @@
 import { createSlice, nanoid } from "@reduxjs/toolkit";
-
+// Feature is called slice here
 const initialState = {
   todos: [{ id: 1, text: "Hello World" }],
 };
