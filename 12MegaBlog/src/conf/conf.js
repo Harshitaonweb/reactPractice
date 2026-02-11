@@ -8,4 +8,4 @@ const conf = {
 
 export default conf;
 //fygdjha
-//jhgadk
+//jh
