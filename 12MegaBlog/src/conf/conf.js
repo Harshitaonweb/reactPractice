@@ -7,3 +7,4 @@ const conf = {
 };
 
 export default conf;
+//mini max
