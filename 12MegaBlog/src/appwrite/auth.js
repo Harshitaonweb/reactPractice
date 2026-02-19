@@ -46,6 +46,8 @@ export class AuthService {
     } catch (error) {
       console.log("Appwrite service :: getCurrentUser :: error", error);
     }
+
+    return null;
   }
 }
 
