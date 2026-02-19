@@ -52,7 +52,7 @@ export class AuthService {
 
   async logout() {
     try {
-      await this.account.deleteSessions({
+      await this.account.deleteSession({
         sessionId: "current",
       });
     } catch (error) {
